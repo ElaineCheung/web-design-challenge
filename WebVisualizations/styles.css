@@ -1,0 +1,25 @@
+body {
+    background: whitesmoke;
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+        padding: 10px;
+    }
+    .box {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .navbar ul {
+        visibility: hidden;
+    }
+    #nav-select {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
